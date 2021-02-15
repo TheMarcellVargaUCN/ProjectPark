@@ -1,0 +1,89 @@
+html {
+    font-size: 12px;
+    font-family: Arial;
+    background-image: url('../images/map.jpg');
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#one {
+    margin-left: 10px;
+}
+
+#two {
+    margin-left: 25px;
+    margin-bottom: 260px;
+}
+
+#three {
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+
+#four {
+    margin-bottom: 120px;
+    margin-left: -70px;
+}
+
+#five {
+    margin-bottom: 150px;
+    margin-left: 60px;
+}
+
+/* .Aalborg-activities {
+    display: grid;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+} */
+
+/*  position: absolute;
+    bottom: 10px;
+    width: 100%; */
+
+/* 
+.search {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+ */
+
+.logo {
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.search {
+    width: 360px;
+    height: 15vh;
+    background-color: #224430;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 15px 50px 1px 5px;
+}
+
+.search h1 {
+    color: white;
+    font-size: 14px;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: -7%;
+}
+
+hr {
+    width: 70px;
+    margin-top: 4%;
+}
+
+.filter {
+    margin-left: 9%;
+    margin-top: 5%;
+}
