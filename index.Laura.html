@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.Laura.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    <title>Activities</title>
-    <script src="assets/javascript.js" defer></script>
+  <meta charset="UTF-8">
+  <title>CodePen - Slide-up menu</title>
+  <link rel="stylesheet" href="assets/css/laura.style.css">
+
 </head>
 
-<body>
-    <nav>
-        <div class="logo">
-            <img src="assets/images/AAK_logo_RGB_Grøn.png" width=100px id="logo">
-        </div>
-        <a href="default.asp"><img src="assets/images/pin.png" width="20px" id="one"></a>
-        <a href="default.asp"><img src="assets/images/pin.png" width="20px" id="two"></a>
-        <a href="default.asp"><img src="assets/images/pin.png" width="20px" id="three"></a>
-        <a href="default.asp"><img src="assets/images/pin.png" width="20px" id="four"></a>
-        <a href="default.asp"><img src="assets/images/pin.png" width="20px" id="five"></a>
-    </nav>
-    <footer>
-        <!-- <div class="Aalborg-activities"> -->
-        <div class="search">
-            <hr>
-            <div class="filter">
-                <img src="assets/images/filter.png" width=9%>
-            </div>
-            <h1>Click on your destination</h1>
-            <!-- </div> -->
-    </footer>
+  <div class="container">
+    <img src="assets/images/AAK_logo_RGB_Grøn.png" width="250px" id="logo">
+    <a href="default.asp"><img src="assets/images/pin.png" width="50px" id="one"></a>
+    <a href="default.asp"><img src="assets/images/pin.png" width="50px" id="two"></a>
+    <a href="default.asp"><img src="assets/images/pin.png" width="50px" id="three"></a>
+    <a href="default.asp"><img src="assets/images/pin.png" width="50px" id="four"></a>
+    <a href="default.asp"><img src="assets/images/pin.png" width="50px" id="five"></a> 
+  
+
+    <div id="slide-up-panel-container" class="slide-up-panel-container">
+      <div id="slide-up-panel" class="slide-up-panel">
+        
+        <h1 id="hide-h1">Click on your destination</h1>
+        <img src="assets/images/filter.png" width="80px" id=filter>
+        <div id="slide-up-btn" class="slide-up-btn"></div>
+      </div>
+      <div id="bottom-circle" class="bottom-circle"></div>
+
     </div>
+
+  </div>
+ 
+  <script src="assets/script.js"></script>
+
 </body>
 
 </html>
