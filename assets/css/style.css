@@ -4,14 +4,14 @@ html {
 }
 .logo img {
     width: 200px;
-    top: 45%;
-    bottom: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 45vh;
     display: block;
 }
 
 .oval1 {
+  top:0;
     height: 80vh;
     width: 100vw;
     margin-left: auto;
@@ -19,7 +19,7 @@ html {
     background-color: transparent;
     border-radius: 50%;
     border: 1px solid white;
-    position: relative;
+    position: absolute;
     animation-name: flip;
     animation-duration: 2.5s;
 	animation-iteration-count: 1;
