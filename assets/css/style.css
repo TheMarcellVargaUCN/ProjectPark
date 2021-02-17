@@ -1,0 +1,72 @@
+html {
+    background-color: #224430;
+    width: 100%;
+}
+.logo img {
+    width: 200px;
+    top: 45%;
+    bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.oval1 {
+    height: 80vh;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    animation-name: flip;
+    animation-duration: 2.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both; 
+	animation-direction: alternate; 
+	animation-timing-function: ease-in-out;
+  }
+  .oval2 {
+    top: 25%;
+    height: 80vh;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    animation-name: flip;
+    animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both; 
+	animation-direction: alternate; 
+	animation-timing-function: ease-in-out;
+  }
+  .oval3 {
+    top: 25.2%;
+    height: 55vh;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    animation-name: flip;
+    animation-duration: 2.3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both; 
+	animation-direction: alternate; 
+	animation-timing-function: ease-in-out;
+  }
+
+@keyframes flip {
+	0% { 
+		transform: rotateX(0deg);  
+	}
+	100% {
+		transform: rotateX(360deg); 	
+	}
+}
