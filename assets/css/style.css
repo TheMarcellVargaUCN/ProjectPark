@@ -67,7 +67,7 @@ html {
 		transform: rotateX(0deg);  
 	}
 	100% {
-		transform: rotateX(360deg);
+		transform: rotateX(450deg);
 	}
 }
 #logo {
@@ -80,7 +80,7 @@ html {
   100% { transform: translateY(-280px)}
 }
 
-#zoom {
+/* #zoom {
   animation: zoom 1s  alternate;
   animation-delay: 2s;
 }
@@ -88,7 +88,7 @@ html {
   to {
     transform: scale(4);
     transition: transform .05s;
-  }
+  } */
   
   
 }
