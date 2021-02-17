@@ -21,11 +21,11 @@ html {
     border: 1px solid white;
     position: absolute;
     animation-name: flip;
-    animation-duration: 2.5s;
-	animation-iteration-count: 1;
-	animation-fill-mode: both; 
-	animation-direction: alternate; 
-	animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+	  animation-iteration-count: 1;
+	  animation-fill-mode: both; 
+	  animation-direction: alternate; 
+	  animation-timing-function: ease-in-out;
   }
   .oval2 {
     top: 25%;
@@ -38,14 +38,14 @@ html {
     border: 1px solid white;
     position: absolute;
     animation-name: flip;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 	animation-iteration-count: 1;
 	animation-fill-mode: both; 
 	animation-direction: alternate; 
 	animation-timing-function: ease-in-out;
   }
   .oval3 {
-    top: 25.2%;
+    top: 25.1%;
     height: 55vh;
     width: 100vw;
     margin-left: auto;
@@ -55,7 +55,7 @@ html {
     border: 1px solid white;
     position: absolute;
     animation-name: flip;
-    animation-duration: 2.3s;
+    animation-duration: 1.8s;
 	animation-iteration-count: 1;
 	animation-fill-mode: both; 
 	animation-direction: alternate; 
@@ -67,6 +67,40 @@ html {
 		transform: rotateX(0deg);  
 	}
 	100% {
-		transform: rotateX(360deg); 	
+		transform: rotateX(360deg);
 	}
 }
+#logo {
+  animation: logo .5s  alternate;
+  animation-delay: 2s;
+}
+
+@keyframes logo {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(-280px)}
+}
+
+#zoom {
+  animation: zoom 1s  alternate;
+  animation-delay: 2s;
+}
+@keyframes zoom {
+  to {
+    transform: scale(4);
+    transition: transform .05s;
+  }
+  
+  
+}
+/* #zoom {
+  animation: zoom 1s ease-in 1.7s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+@keyframes zoom {
+  to {
+      transition: transform .05s;
+      transform: scale(4);
+      position: relative;
+  }
+} */
