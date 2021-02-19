@@ -24,13 +24,17 @@ html, body {
 
 #logo {
   position: absolute;
+  display: inline;
   z-index: 10;
-  margin-top: -640px;
-  margin-left: -60%;
+  margin-right: 45vw;
+  margin-bottom: 85vh;
+  width: 35%;
+  height: auto;
 }
 
 .container img {
   position: absolute;
+  display: inline;
 }
 
 #one {
@@ -38,6 +42,7 @@ html, body {
   z-index: 1;
   margin-left: 10%;
   margin-top: 13%;
+  display: none;
 }
 
 #two {
@@ -45,6 +50,7 @@ html, body {
   z-index: 1;
   margin-left: 15%;
   margin-top: -83%;
+  display: none;
 }
 
 #three {
@@ -52,6 +58,7 @@ html, body {
   margin-top: -5%;
   position: absolute;
   z-index: 10;
+  display: none;
 }
 
 #four {
@@ -59,6 +66,7 @@ html, body {
   margin-top: 15%;
   position: absolute;
   z-index: 10;
+  display: none;
 }
 
 #five {
@@ -66,11 +74,13 @@ html, body {
   margin-top: -50%;
   position: absolute;
   z-index: 10;
+  display: none;
 }
 
 #hiking {
-  margin-top: -49%;
+  margin-top: 50%;
   margin-left: 14%;
+  width: 500%;
 }
 
 #running {

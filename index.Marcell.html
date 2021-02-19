@@ -3,13 +3,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Slide-up menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="assets/css/style.marcell.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <script src="../assets/script.js" defer></script>
+  <title>Interactive Map</title>
 
 </head>
 
 <div class="container">
-  <img src="assets/images/AAK_logo_RGB_Grøn.png" width="120px" id="logo">
+  <img src="assets/images/AAK_logo_RGB_Grøn.png" id="logo">
   <a href="default.asp"><img src="assets/images/pin.png" width="25px" id="one"></a>
   <a href="default.asp"><img src="assets/images/pin.png" width="25px" id="two"></a>
   <a href="default.asp"><img src="assets/images/pin.png" width="25px" id="three"></a>
@@ -19,29 +24,35 @@
 
   <div id="slide-up-panel-container" class="slide-up-panel-container">
     <div id="slide-up-panel" class="slide-up-panel">
-    <h1 id="hide-h1">Click on your destination</h1>
-    <img src="assets/images/filter.png" width="32px" id="filter">
-
-    <a href="default.asp"><img src="assets/images/man-with-bag-and-walking-stick.png" width=25px id="hiking"></a>
-      <h2>Hiking</h2>
-
-      <a href="default.asp"><img src="assets/images/running.png" width="30px" id="running"></a>
-      <h2 id="jogging">Jogging</h2>
-      <h3>Difficulty</h3>
-
-      <a href="default.asp"><h4>Easy</h4></a> 
-      <a href="default.asp"><h4>Medium</h4></a> 
-      <a href="default.asp"><h4>Hard</h4></a> 
       
-      <div id="slide-up-btn" class="slide-up-btn"></div>
+    <div class="selectionbox">
+
+      <h1 id="hide-h1">Click on your destination</h1>
+      
+      <i class="fas fa-filter" id="filter"></i>
+      
+
+        <a href="default.asp"><i class="fas fa-hiking" id="hiking"></i></a>
+          <h2>Hiking</h2>
+
+          <a href="default.asp"><i class="fas fa-running" id="running"></i></a>
+          <h2 id="jogging">Jogging</h2>
+          <h3>Difficulty</h3>
+
+          <a href="default.asp"><h4>Easy</h4></a> 
+          <a href="default.asp"><h4>Medium</h4></a> 
+          <a href="default.asp"><h4>Hard</h4></a> 
+          
+          <div id="slide-up-btn" class="slide-up-btn"></div>
+        </div>
+        <div id="bottom-circle" class="bottom-circle"></div>
+      
     </div>
-    <div id="bottom-circle" class="bottom-circle"></div>
 
   </div>
 
 </div>
 
-<script src="assets/script.js"></script>
 
 </body>
 
