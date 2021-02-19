@@ -3,11 +3,11 @@
 }
 
 html, body {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
+  color: white;
 }
 
 .container {
@@ -77,27 +77,68 @@ html, body {
   display: none;
 }
 
-#hiking {
-  margin-top: 50%;
-  margin-left: 14%;
-  width: 500%;
+.selectionbox {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  z-index: 7;
+  overflow: hidden;
+  border-collapse: collapse;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  'filter hide-h1 hide-h1'
+  'hikingimage . joggingimage'
+  'hikingtext . joggingtxet'
+  '. difficulty .'
+  'easy medium hard';
 }
 
-#running {
+.hide-h1 { grid-area: hide-h1; }
+.fas fa-filter { grid-area: filter; }
+.fas fa-hiking { grid-area: hikingimage; }
+.hikingtext { grid-area: hikingtext; }
+.fas fa-running { grid-area: joggingimage; }
+.joggingtext { grid-area: joggingtext; }
+.difficulty { grid-area: difficulty; }
+.easy { grid-area: easy; }
+.medium { grid-area: medium; }
+.hard { grid-area: hard; }
+.slide-up-btn { grid-area: slide-up-btn; }
+.bottom-circle { grid-area: bottom-circle; }
+
+
+.selectionbox i {
+  color: white;
+  font-size: 11vw;
+  padding: 0;
+  margin: 0;
+}
+
+.fas fa-hiking {
+  width: 50%;
+  height: auto;
+  color: white;
+}
+
+.fas fa-running {
   margin-top: -47%;
   margin-left: 48%;
 }
 
 .slide-up-panel-container {
-  position: relative;
   height: 85%;
   width: 100%;
-  margin-bottom: -45%;
 }
 
 .slide-up-panel {
   z-index: 10;
-  margin-right: 150px;
   position: absolute;
   bottom: 0;
   display: flex;
@@ -108,40 +149,28 @@ html, body {
 }
 
 .slide-up-panel h1 {
-  position: absolute;
   color: white;
   font-size: 18px;
-  margin-top: 20%;
-  margin-left: -5%;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .slide-up-panel h2 {
-  position: absolute;
   color: white;
   font-size: 18px;
-  margin-top: 60%;
-  margin-left: -50%;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .slide-up-panel h3 {
-  position: absolute;
   color: white;
   font-size: 20px;
-  margin-top: 80%;
-  margin-left: -14%;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .slide-up-panel h4 {
-  display: flex;
   color: white;
-  display: inline;
-  margin-right: 50px;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -150,16 +179,6 @@ a { text-decoration: none;
     
 
 
-}
-
-#jogging {
-  color: white;
-  position: absolute;
-  font-size: 18px;
-  margin-top: 61%;
-  margin-left: 18%;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .slide-up-btn {
@@ -171,11 +190,6 @@ a { text-decoration: none;
   width: 20vw;
   background-color: whitesmoke;
   cursor: pointer;
-}
-
-#filter {
-  margin-left: -65vw;
-  margin-top: 15vh;
 }
 
 .slide-up-anim {
