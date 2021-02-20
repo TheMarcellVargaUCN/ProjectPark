@@ -23,15 +23,8 @@ html, body {
     background-size: cover;
 }
 
-.logo {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-start: 1;
+.LOGO {
     margin-left: 10%;
-    position: absolute;
-    z-index: 1;
-    margin-top: -190%;
 }
 
 .pin1 {
@@ -114,10 +107,11 @@ html, body {
     bottom: 0;
     justify-content: center;
     width: 100%;
-    height: 210px;
+    height: 230px;
     background-color: rgb(4, 49, 2);
     border-radius: 0 130px 0 0;
     overflow: hidden;
+    margin-bottom: -8%;
 }
 
 /* other grid */
@@ -141,12 +135,12 @@ html, body {
     font-size: 45px;
     text-align: center;
     margin-left: 5%;
-    margin-top: -70%;
+    margin-top: -67%;
 }
 
 .filter {
-    margin-top: -40%;
-    margin-left: 52%;
+    margin-top: -35%;
+    margin-left: 56%;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
