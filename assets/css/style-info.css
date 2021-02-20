@@ -12,14 +12,14 @@
 
 /* ------------------------------- Grid (behind) --------------- */
 
-.grid-wedding{
+.grid-info{
     display: grid;
     height: 100%;
     width: 100%;
     background-color:#ff0000cb; 
   }
 
-  .grid-wedding{
+  .grid-info{
       font-size: 1rem;
       color: #ffffff;
   }
