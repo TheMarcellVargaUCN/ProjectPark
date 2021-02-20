@@ -19,11 +19,14 @@
     background-color:#ff0000cb; 
   }
 
-  .grid-info{
-      font-size: 1rem;
-      color: #ffffff;
+  .map{
+    position: absolute;
+    background-image: url('../../images/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
   }
-
 
   /* ------------------------------- Slide Bar --------------- */
 
@@ -51,7 +54,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 28%;
+    height: 8%;
     background-color: rgb(4, 49, 2);
     border-radius: 0 80px 0 0;
   }
@@ -72,11 +75,11 @@
   
   @keyframes slide-up-anim {
     0% {
-      height: 18%;
+      height: 8%;
     }
    
     100% {
-      height: 195%;
+      height: 85%;
     }
   }
   .slide-down-anim {
@@ -85,12 +88,12 @@
   
   @keyframes slide-down-anim {
     0% {
-      height: 195%;
+      height: 85%;
     }
 
 
     100% {
-      height: 18%;
+      height: 8%;
     }
   }
 
@@ -121,6 +124,7 @@
         margin-right: 5%;
         position:fixed;
          margin-top: 20%;
+         color: #ffffff;
     }
 
 
