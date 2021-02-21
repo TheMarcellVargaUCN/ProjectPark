@@ -1,6 +1,15 @@
-html {
+/* html {
     background-color: #224430;
     width: 100%;
+} */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 360px;
+  background-color: #224430;
 }
 .logo img {
     width: 200px;
@@ -109,7 +118,9 @@ html {
 
 @keyframes logo {
   0% { transform: translateY(0px);}
-  100% { transform: translateY(-280px);}
+  100% { 
+    transform: translateY(-280px);
+  }
 
 }
 
@@ -121,6 +132,7 @@ html {
   to {
     transform: scale(4);
     transition: transform .05s;
+    opacity:0;
   }
   
   
