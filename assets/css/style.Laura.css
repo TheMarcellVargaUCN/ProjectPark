@@ -24,8 +24,8 @@ html, body {
 }
 
 .active {
-    color: rgb(36, 170, 47);
-    font-size:50px;
+    color: #228B22;
+    font-size: 50px;
 }
 
 .LOGO {
@@ -64,7 +64,7 @@ html, body {
     z-index: 1;
 }
 
-.pin4 { 
+.pin4 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;

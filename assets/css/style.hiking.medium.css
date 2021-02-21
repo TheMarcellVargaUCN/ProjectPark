@@ -23,33 +23,51 @@ html, body {
     background-size: cover;
 }
 
-.active {
-    color: #228B22;
-    font-size: 50px;
+.active1 {
+    color: rgb(226, 230, 21);
 }
 
-.logo {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-start: 1;
+.active {
+    color: #228B22;
+}
+
+.LOGO {
     margin-left: 10%;
+}
+
+.Egholm-medium {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-start: 2;
+    margin-left: 10%;
+    margin-top: -5%;
     position: absolute;
     z-index: 1;
+}
+
+.Egholm-medium h3 {
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(4, 49, 2);
+    opacity: 80%;
+    border: 1px solid black;
+    color: #fff;
+    width: 120px;
+    height: 90px;
+    padding-top: 4px;
+    border-radius: 1rem;
 }
 
 .pin1 {
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
+    grid-column-end: 1;
+    grid-row-start: 1;
     grid-row-start: 2;
     margin-left: 49%;
-    margin-top: -30%;
-    position: absolute;
-    z-index: 1;
 }
 
-.pin2 {
+/* .pin2 {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -59,7 +77,23 @@ html, body {
     z-index: 1;
 }
 
-.pin3 {
+.Øster-easy {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-start: 2;
+    margin-top: 58%;
+    margin-left: -15%;
+    position: absolute;
+    z-index: 1;
+}
+
+.Øster-easy h3 {
+    font-size: 35px;
+
+} */
+
+/* .pin3 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
@@ -68,9 +102,9 @@ html, body {
     margin-left: 18%;
     position: absolute;
     z-index: 1;
-}
+} 
 
-.pin4 {
+/* .pin4 { 
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -80,6 +114,19 @@ html, body {
     position: absolute;
     z-index: 1;
 }
+.Poulstrup-easy {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-start: 4;
+    margin-top: 3%;
+    margin-left: 30%;
+    position: absolute;
+    z-index: 1;
+}
+.Poulstrup-easy h3 {
+    font-size: 35px;
+} */
 
 .pin5 {
     grid-column-start: 3;
@@ -91,7 +138,30 @@ html, body {
     z-index: 1;
 }
 
-.pin6 {
+.Øster-medium {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-start: 3;
+    margin-top: 72%;
+    position: absolute;
+    z-index: 1;
+}
+
+.Øster-medium h3 {
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(4, 49, 2);
+    opacity: 80%;
+    border: 1px solid black;
+    color: #fff;
+    width: 100px;
+    height: 55px;
+    padding-top: 6px;
+    border-radius: 1rem;
+}
+
+/* .pin6 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -100,7 +170,8 @@ html, body {
     margin-left: 60%;
     position: absolute;
     z-index: 1;
-}
+} 
+ */
 
 .slide-up-panel-container {
     grid-column-start: 1;
@@ -118,10 +189,11 @@ html, body {
     bottom: 0;
     justify-content: center;
     width: 100%;
-    height: 210px;
+    height: 230px;
     background-color: rgb(4, 49, 2);
     border-radius: 0 130px 0 0;
     overflow: hidden;
+    margin-bottom: -8%;
 }
 
 /* other grid */
@@ -145,12 +217,12 @@ html, body {
     font-size: 45px;
     text-align: center;
     margin-left: 5%;
-    margin-top: -70%;
+    margin-top: -67%;
 }
 
 .filter {
-    margin-top: -40%;
-    margin-left: 52%;
+    margin-top: -35%;
+    margin-left: 56%;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -203,6 +275,38 @@ html, body {
     color: white;
     font-size: 50px;
 }
+
+/* button */
+
+/* .buttonStyle1{
+    width:150px;
+    height: 110px;
+	background-color: #224430;
+	color:white;
+	border:none;
+	font-size:50px;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 4px 4px rgb(255, 255, 255);
+	outline:none;
+    text-align: center;
+    line-height: 0px; 
+    box-sizing: border-box;
+    vertical-align: middle;
+   
+}
+
+.buttonStyle1:active{
+	box-shadow: 0 2px white;
+	transform: translateY(4px);
+	outline:none;
+
+}
+.buttonStyle1:hover {
+	background-color:#07f86b;
+	outline:none;
+}
+ */
 
 .easy {
     grid-column-start: 2;
