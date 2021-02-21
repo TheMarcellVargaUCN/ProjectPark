@@ -68,7 +68,7 @@
 
 
   .slide-up-anim {
-    animation: slide-up-anim 0.5s ease-in-out forwards;
+    animation: slide-up-anim 0.8s ease-in-out forwards;
   }
 
   @keyframes slide-up-anim {
@@ -87,7 +87,7 @@
   @keyframes slide-down-anim {
     0% {
       height: 85%;
-    }
+    } 
 
     100% {
       height: 8%;
@@ -175,11 +175,36 @@
       padding: 10px;
     }
 
+    .pictures3{
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      margin-bottom: -138%;
+    }
+
+    .pictures3 img{
+      width: 40vw;
+      padding: 10px;
+    }
+
+
 
     /* text */
     .text {
       overflow: auto;
       background-color: #ffffff07;
+      color: #ffffff;
+      font-size: 14px;
+      position: absolute;
+      width: 95%;
+      height: 37%;
+      padding: 3%;
+      text-align: left;
+    } 
+
+    .text-2 {
+      overflow: auto;
       color: #ffffff;
       font-size: 14px;
       position: absolute;
@@ -239,6 +264,7 @@
       text-align: left;
     }
 
+ 
 
     .prev, .next {
       cursor: pointer;
