@@ -178,26 +178,25 @@ html, body {
 
 .click-on-destination {
     grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-start: 1;
-}
-
-.click-on-destination h1 {
-    position: relative;
-    color: #fff;
-    font-size: 45px;
-    text-align: center;
-    margin-left: 5%;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-start: 4;
+    margin-left: -1%;
     margin-top: -5%;
 }
 
-.filter {
-    margin-top: -35%;
-    margin-left: 56%;
+.click-on-destination h1 {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+.filter img {
+    margin-top: -31%;
+    margin-right: 12%;
     grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
     grid-row-start: 2;
 }
 
@@ -286,6 +285,7 @@ html, body {
     grid-row-start: 6;
     grid-row-start: 6;
     font-size: 45px;
+    margin-top: -2%;
     margin-left: 2%;
 }
 
