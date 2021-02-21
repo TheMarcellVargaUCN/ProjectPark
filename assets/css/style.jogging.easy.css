@@ -25,7 +25,7 @@ html, body {
 
 .active {
     color: #228B22;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .LOGO {
@@ -177,18 +177,19 @@ html, body {
 }
 
 .click-on-destination {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-start: 1;
 }
 
 .click-on-destination h1 {
+    position: relative;
     color: #fff;
     font-size: 45px;
     text-align: center;
     margin-left: 5%;
-    margin-top: -67%;
+    margin-top: -5%;
 }
 
 .filter {
