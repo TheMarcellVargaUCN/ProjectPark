@@ -56,6 +56,7 @@ html, body {
     width: 120px;
     height: 60px;
     padding-top: 6px;
+    border-radius: 1rem;
 }
 
 .pin1 {
@@ -161,6 +162,7 @@ html, body {
     width: 130px;
     height: 90px;
     padding-top: 6px;
+    border-radius: 1rem;
 }
 
 .hiking-hard {
@@ -183,6 +185,7 @@ html, body {
     width: 110px;
     height: 60px;
     padding-top: 6px;
+    border-radius: 1rem;
 }
 
 .pin6 {

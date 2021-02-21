@@ -76,6 +76,7 @@ html, body {
     width: 130px;
     padding-top: 10px;
     height: 70px;
+    border-radius: 1rem;
 }
 
 /* .pin3 {
@@ -121,6 +122,8 @@ html, body {
     width: 130px;
     padding-top: 10px;
     height: 70px;
+    border-radius: 1rem;
+}
 
 /* .pin5 {
     grid-column-start: 3;

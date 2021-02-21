@@ -146,6 +146,7 @@ html, body {
     width: 130px;
     padding-top: 10px;
     height: 70px;
+    border-radius: 1rem;
 }
 
 .slide-up-panel-container {

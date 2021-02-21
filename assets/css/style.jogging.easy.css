@@ -73,6 +73,8 @@ html, body {
     color: #fff;
     width: 130px;
     height: 90px;
+    border-radius: 1rem;
+    padding-top: 3%;
 }
 
 /* .pin3 {
@@ -118,6 +120,7 @@ html, body {
     width: 130px;
     padding-top: 10px;
     height: 70px;
+    border-radius: 1rem;
 }
 
 /* .pin5 {
