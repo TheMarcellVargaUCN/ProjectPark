@@ -67,7 +67,15 @@ html, body {
 }
 
 .Øster-medium h3 {
+    text-align: center;
     font-size: 35px;
+    background-color: rgb(4, 49, 2);
+    opacity: 80%;
+    border: 1px solid black;
+    color: #fff;
+    width: 130px;
+    padding-top: 10px;
+    height: 70px;
 }
 
 /* .pin3 {
@@ -104,8 +112,15 @@ html, body {
 }
 
 .Poulstrup-medium h3 {
+    text-align: center;
     font-size: 35px;
-}
+    background-color: rgb(4, 49, 2);
+    opacity: 80%;
+    border: 1px solid black;
+    color: #fff;
+    width: 130px;
+    padding-top: 10px;
+    height: 70px;
 
 /* .pin5 {
     grid-column-start: 3;

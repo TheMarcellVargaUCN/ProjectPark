@@ -26,6 +26,7 @@ html, body {
 .active1 {
     color: rgb(170, 36, 43);
 }
+
 .active {
     color: rgb(36, 170, 47);
 }
@@ -39,14 +40,22 @@ html, body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-start: 2;
-    margin-left: 23%;
-    margin-top: -13%;
+    margin-left: 20%;
+    margin-top: -6%;
     position: absolute;
     z-index: 1;
 }
 
 .Egholm-medium h3 {
+    text-align: center;
     font-size: 35px;
+    background-color: rgb(4, 49, 2);
+    opacity: 80%;
+    border: 1px solid black;
+    color: #fff;
+    width: 120px;
+    height: 60px;
+    padding-top: 6px;
 }
 
 .pin1 {
@@ -121,7 +130,7 @@ html, body {
     font-size: 35px;
 } */
 
- .pin5 {
+.pin5 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -129,35 +138,54 @@ html, body {
     margin-top: 52%;
     position: absolute;
     z-index: 1;
-} 
+}
+
 .Øster-medium {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-start: 3;
-    margin-top: 78%;
-    margin-left: -20%;
+    margin-top: 71%;
+    margin-left: -10%;
     position: absolute;
     z-index: 1;
 }
 
 .Øster-medium h3 {
+    text-align: center;
     font-size: 35px;
+    background-color: rgb(4, 49, 2);
+    opacity: 80%;
+    border: 1px solid black;
+    color: #fff;
+    width: 130px;
+    height: 90px;
+    padding-top: 6px;
 }
+
 .hiking-hard {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-start: 2; 
+    grid-row-start: 2;
     margin-left: 49%;
     margin-top: 22%;
 }
+
 .hiking-hard h3 {
     font-size: 35px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(4, 49, 2);
+    opacity: 80%;
+    border: 1px solid black;
+    color: #fff;
+    width: 110px;
+    height: 60px;
+    padding-top: 6px;
 }
 
-
-  .pin6 {
+.pin6 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -166,8 +194,8 @@ html, body {
     margin-left: 60%;
     position: absolute;
     z-index: 1;
-} 
- 
+}
+
 .slide-up-panel-container {
     grid-column-start: 1;
     grid-column-end: 4;
