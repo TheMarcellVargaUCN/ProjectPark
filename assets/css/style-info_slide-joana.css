@@ -13,20 +13,83 @@
 /* ------------------------------- Grid MAP --------------- */
 
 .grid-info{
-    display: grid;
-    height: 100vh;
+    height:auto;
     width: 100%;
-    background-color:#ff0000cb;
+    /* background-color:#ff0000cb; */
   }
 
-  .map{
+
+  .grid-container {
     position: absolute;
     background-image: url("../images/map.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
-  }
+}
+
+/* .active {
+    color: #228B22;
+    font-size: 50px;
+} */
+
+.LOGO {
+    margin-left: 3%;
+}
+
+.pin1 {
+    margin-left: 16%;
+    margin-top: 11%;
+    position: absolute;
+    z-index: 1;
+}
+
+.pin2 {
+  margin-left: 60%;
+  margin-top: 40%;
+  position: absolute;
+  z-index: 1;
+}
+
+.pin3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-start: 4;
+    margin-top: 5%;
+    margin-left: 18%;
+    position: absolute;
+    z-index: 1;
+}
+
+.pin4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-start: 3;
+    margin-top: 62%;
+    margin-left: 35%;
+    position: absolute;
+    z-index: 1;
+}
+
+.pin5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-start: 3;
+    margin-top: 2%;
+    margin-left: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* .pin6 {
+  margin-left: 86%;
+  margin-top: 22%;
+  position: absolute;
+  z-index: 1;
+} */
 
   /* ------------------------------- Slide Bar --------------- */
 
@@ -98,9 +161,10 @@
 
 .return{
   position: absolute;
-  margin-left: -10%;
-  margin-top: -22%;
+  margin-left: 13%;
+  margin-top: 5%;
   width: 100%;
+  z-index: 1;
 }
 
 .return1{
