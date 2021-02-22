@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: border-box;
 }
 
@@ -9,29 +9,36 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-} 
-
-.grid-container {
-    position: absolute;
-    background-image: url("../images/map.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
 }
 
- .active {
+.grid-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-image: url('../images/map.jpg');
+    background-size: cover;
+}
+
+.active {
     color: #228B22;
     font-size: 50px;
-} 
+}
 
 .LOGO {
     margin-left: 10%;
 }
 
 .pin1 {
-    margin-left: 18%;
-    margin-top: 8%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-start: 2;
+    margin-left: 49%;
+    margin-top: -30%;
     position: absolute;
     z-index: 1;
 }
@@ -112,7 +119,7 @@ html, body {
     border-radius: 0 130px 0 0;
     overflow: hidden;
     margin-bottom: -8%;
-} 
+}
 
 /* other grid */
 
@@ -192,11 +199,11 @@ html, body {
     margin-left: 32%;
     color: white;
     font-size: 50px;
-} 
+}
 
 /* button */
 
- .buttonStyle1{
+/* .buttonStyle1{
     width:150px;
     height: 110px;
 	background-color: #224430;
@@ -224,7 +231,7 @@ html, body {
 	background-color:#07f86b;
 	outline:none;
 }
-
+ */
 
 .easy {
     grid-column-start: 2;
@@ -300,4 +307,4 @@ a {
     100% {
         height: 16%;
     }
-} 
+}
