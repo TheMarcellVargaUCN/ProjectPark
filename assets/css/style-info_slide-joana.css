@@ -77,7 +77,7 @@
   /* ------------------------------- Slide Bar --------------- */
 
   .bar {
-    z-index: 5;
+    /* z-index: 5; */
     position: relative;
     height: 100%;
     width: 100%;
@@ -93,6 +93,7 @@
   }
 
   .slide-up-panel {
+    z-index: 1;
     position: absolute;
     bottom: 0;
     display: flex;
