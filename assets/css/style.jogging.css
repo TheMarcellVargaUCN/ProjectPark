@@ -54,7 +54,8 @@ html, body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-start: 2;
-    margin-top: 38%;
+    margin-top: 58%;
+    margin-left: -20%;
     position: absolute;
     z-index: 1;
 }
@@ -82,11 +83,12 @@ html, body {
 }
 
 .pin5 {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-start: 3;
-    margin-top: 52%;
+    margin-top: 2%;
+    margin-left: 30%;
     position: absolute;
     z-index: 1;
 }
@@ -101,7 +103,6 @@ html, body {
     position: absolute;
     z-index: 1;
 }
-
 .slide-up-panel-container {
     grid-column-start: 1;
     grid-column-end: 4;
