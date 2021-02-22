@@ -28,11 +28,6 @@
     width: 100%;
 }
 
-/* .active {
-    color: #228B22;
-    font-size: 50px;
-} */
-
 .LOGO {
     margin-left: 3%;
 }
@@ -52,44 +47,32 @@
 }
 
 .pin3 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-start: 4;
-    margin-top: 5%;
-    margin-left: 18%;
-    position: absolute;
-    z-index: 1;
+  margin-left: 6%;
+  margin-top: 98%;
+  position: absolute;
+  z-index: 1;
 }
 
 .pin4 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-start: 3;
-    margin-top: 62%;
-    margin-left: 35%;
-    position: absolute;
-    z-index: 1;
+  margin-left: 45%;
+  margin-top: 80%;
+  position: absolute;
+  z-index: 1;
 }
 
 .pin5 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-start: 3;
-    margin-top: 2%;
-    margin-left: 30%;
-    position: absolute;
-    z-index: 1;
+  margin-left: 43%;
+  margin-top: 59%;
+  position: absolute;
+  z-index: 1;
 }
 
-/* .pin6 {
+ .pin6 {
   margin-left: 86%;
   margin-top: 22%;
   position: absolute;
   z-index: 1;
-} */
+} 
 
   /* ------------------------------- Slide Bar --------------- */
 
@@ -162,16 +145,16 @@
 .return{
   position: absolute;
   margin-left: 13%;
-  margin-top: 5%;
-  width: 100%;
+  margin-top: 15%;
+  /* width: 100%; */
   z-index: 1;
 }
 
 .return1{
   position: absolute;
-  margin-left: 7%;
-  margin-top: -16%;
-  width: 98%;
+  margin-left: 23%;
+  margin-top: 5%;
+  /* width: 98%; */
 }
 
 
@@ -262,7 +245,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
-      margin-bottom: -138%;
+      margin-bottom: -126%;
     }
 
     .pictures3 img{
@@ -326,7 +309,6 @@
 
     .text_BJ_Nature {
       overflow: scroll;
-      background-color: #ffffff07;
       color: #ffffff;
       font-size: 14px;
       position:relative;
@@ -340,13 +322,12 @@
 
     .text_BJ_Nature1 {
       overflow: scroll;
-      background-color: #ffffff07;
       color: #ffffff;
       font-size: 14px;
       position:relative;
       margin-left: 15%;
       width: 170%;
-      height: 70%;
+      height: 99%;
       padding-left:  3%;
       padding-right: 3%;
       text-align: left;
