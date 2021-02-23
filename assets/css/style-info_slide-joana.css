@@ -74,6 +74,7 @@
   z-index: 1;
 } 
 
+
   /* ------------------------------- Slide Bar --------------- */
 
   .bar {
@@ -146,7 +147,7 @@
 .return{
   position: absolute;
   margin-left: 13%;
-  margin-top: 15%;
+  margin-top: 19%;
   /* width: 100%; */
   z-index: 1;
 }
@@ -260,7 +261,7 @@
     /* text */
     .text {
       overflow: auto;
-      background-color: #ffffff07;
+      /* background-color: #ffffff07; */
       color: #ffffff;
       font-size: 14px;
       position: absolute;
@@ -285,7 +286,7 @@
 
     .text_BJ_History {
       overflow: auto;
-      background-color: #ffffff07;
+      /* background-color: #ffffff07; */
       color: #ffffff;
       font-size: 14px;
       position: absolute;
@@ -298,7 +299,7 @@
 
     .text_BJ_Routes {
       overflow: auto;
-      background-color: #ffffff07;
+      /* background-color: #ffffff07; */
       color: #ffffff;
       font-size: 14px;
       position: absolute;
