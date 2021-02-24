@@ -133,6 +133,7 @@ button {
   animation-delay: 2s;
 }
 
+
 @keyframes logo {
   0% {
     transform: translateY(0px);
