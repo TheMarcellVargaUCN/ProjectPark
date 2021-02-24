@@ -21,7 +21,7 @@
 
 .grid-container {
   position: absolute;
-  background-image: url("/assets/images/map.jpg");
+  background-image: url("../images/mainmap.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
