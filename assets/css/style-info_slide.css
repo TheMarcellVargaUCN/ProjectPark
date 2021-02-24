@@ -108,6 +108,7 @@ z-index: 1;
   .slide-up-panel {
     position: absolute;
     bottom: 0;
+    z-index: 1;
     display: flex;
     justify-content: center;
     width: 100%;
