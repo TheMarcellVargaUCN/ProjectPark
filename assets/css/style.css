@@ -2,6 +2,7 @@
     background-color: #224430;
     width: 100%;
 } */
+
 * {
   box-sizing: border-box;
 }
@@ -11,6 +12,7 @@ html, body {
   width: 360px;
   background-color: #224430;
 }
+
 html {
   background-color: #224430;
   width: 100%;
@@ -90,7 +92,7 @@ a {
   animation: intro .8s forwards;
   animation-delay: 2s;
   position: absolute;
-  margin-top: -37vh;
+  margin-top: -40vh;
   padding: 30px;
   line-height: 25px;
 }
@@ -132,11 +134,12 @@ button {
 }
 
 @keyframes logo {
-  0% { transform: translateY(0px);}
-  100% { 
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
     transform: translateY(-280px);
   }
-
 }
 
 #zoom {
@@ -148,6 +151,6 @@ button {
   to {
     transform: scale(4);
     transition: transform .05s;
-    opacity:0;
+    opacity: 0;
   }
 }
